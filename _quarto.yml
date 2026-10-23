@@ -1,0 +1,25 @@
+project:
+  type: book
+
+book:
+  title: "Clima y trabajo"
+  author: "Alexandra Rivera, Neyser Troya"
+  date: "10/23/2026"
+book:
+  chapters:
+    - index.qmd
+    - Capitulos de libros/introduccion
+
+
+bibliography: references.bib
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+  pdf:
+    documentclass: scrreprt
+
+editor: visual
+

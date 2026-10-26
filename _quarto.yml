@@ -1,25 +1,24 @@
+
 project:
   type: book
 
 book:
-  title: "Clima y trabajo"
+  title: "Efectos de las olas de calor y las sequías sobre los ingresos laborales en Ecuador"
   author: "Alexandra Rivera, Neyser Troya"
-  date: "10/23/2026"
-book:
+  date: "23/10/2026"
   chapters:
     - index.qmd
-    - Capitulos de libros/introduccion
-
+    - "Capitulos de libros/introduccion.qmd"
+    - "Capitulos de libros/marco teorico.qmd"
+    - "Capitulos de libros/Resultados.qmd"
+    - references.qmd
 
 bibliography: references.bib
 
 format:
   html:
-    theme:
-      - cosmo
-      - brand
-  pdf:
-    documentclass: scrreprt
+    theme: cosmo
+    toc: true
+    number-sections: true
 
 editor: visual
-

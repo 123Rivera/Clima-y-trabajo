@@ -1,5 +1,0 @@
----
-title: "marco teorico"
-format: html
----
-
